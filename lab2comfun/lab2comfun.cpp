@@ -70,13 +70,13 @@ int main()
 		}
 		if (_kbhit()) {
 			ch = _getch();
-			if (ch == 'a') {
+			if (ch == 'a'|| ch == 'A') {
 				go = 1; 
 			}
-			if (ch == 's') {
+			if (ch == 's' || ch == 'S') {
 				go = 0; 
 			}
-			if (ch == 'd') { 
+			if (ch == 'd' || ch == 'D') {
 				go = 2; 
 			}
 			if (ch == ' ' && point < 4) {
